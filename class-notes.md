@@ -1,6 +1,7 @@
 # Frontend Masters Course
 # Enterprise UI Development: Testing and Code quality
-
+- Started: Sunday December 24th, 2023
+- Completed: Sunday December 24th, 2023
 Course on how to build the infrastructure needed to manage a large code base supported by a team of contributors.
 
 
@@ -11,8 +12,8 @@ Course on how to build the infrastructure needed to manage a large code base sup
 - 
 
 ## Links
-- []() - 
-- []() -
+- [Vitest](https://vitest.dev/) - Next Generation Testing Framework
+- [Vitest UI](https://vitest.dev/guide/ui.html) - Awesome UI tool to gain a real time visual of tests.
 - []() -
 
 ## Top Level Notes
@@ -48,6 +49,17 @@ Course on how to build the infrastructure needed to manage a large code base sup
 - Component tests: Render single component and ensure it works
 ### Setup Unit Testing with Vitest
 - Unit testing -> first layer of defense
+### Vitest UI
+- Awesome visualer for all tests and current status
+-- https://vitest.dev/guide/ui.html
+- Most common assertion methods
+-- * toBe: https://vitest.dev/api/expect.html#tobe
+-- * toBeCloseTo: https://vitest.dev/api/expect.html#tobecloseto
+-- * toBeInstanceOf: https://vitest.dev/api/expect.html#tobeinstanceof
+-- * toBeUndefined: https://vitest.dev/api/expect.html#tobeundefined
+-- * toContain: https://vitest.dev/api/expect.html#tocontain
+-- * toThrow: https://vitest.dev/api/expect.html#tothrow
+-- * toThrowError: https://vitest.dev/api/expect.html#tothrowerror
 ## Building a CI Pipeline with Github Actions
 ## Component Testing
 ## Accessibility Testing & Code Coverage
