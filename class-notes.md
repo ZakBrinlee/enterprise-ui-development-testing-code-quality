@@ -17,6 +17,7 @@ Course on how to build the infrastructure needed to manage a large code base sup
 - [Vitest UI](https://vitest.dev/guide/ui.html) - Awesome UI tool to gain a real time visual of tests.
 - [GitHub Action Events list](https://github.com/stevekinney/enterprise-ui-dev/blob/main/content/Github%20Actions%20Events.md) -
 - [GitHub Actions](https://github.com/marketplace?type=actions) - GitHub's Actions site
+- [GitHub Action Workflow Syntax documentation](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds)
 
 ## Top Level Notes
 - Components of a Well-Architected UI Application
@@ -65,6 +66,8 @@ Course on how to build the infrastructure needed to manage a large code base sup
 ## Building a CI Pipeline with Github Actions
 ### GitHub Actions
 - Your Github Actions workflows live in the `.github/workflows` directory in your repository.
+### Caching Dependencies
+- https://github.com/stevekinney/enterprise-ui-dev/blob/main/content/Caching%20Assets%20Between%20Jobs.md
 ## Component Testing
 ## Accessibility Testing & Code Coverage
 ## Mocking and Spying
