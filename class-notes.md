@@ -2,6 +2,7 @@
 # Enterprise UI Development: Testing and Code quality
 - Started: Sunday December 24th, 2023
 - Completed: Sunday December 24th, 2023
+- git 
 Course on how to build the infrastructure needed to manage a large code base supported by a team of contributors.
 
 
@@ -14,7 +15,8 @@ Course on how to build the infrastructure needed to manage a large code base sup
 ## Links
 - [Vitest](https://vitest.dev/) - Next Generation Testing Framework
 - [Vitest UI](https://vitest.dev/guide/ui.html) - Awesome UI tool to gain a real time visual of tests.
-- []() -
+- [GitHub Action Events list](https://github.com/stevekinney/enterprise-ui-dev/blob/main/content/Github%20Actions%20Events.md) -
+- [GitHub Actions](https://github.com/marketplace?type=actions) - GitHub's Actions site
 
 ## Top Level Notes
 - Components of a Well-Architected UI Application
@@ -61,6 +63,8 @@ Course on how to build the infrastructure needed to manage a large code base sup
 -- * toThrow: https://vitest.dev/api/expect.html#tothrow
 -- * toThrowError: https://vitest.dev/api/expect.html#tothrowerror
 ## Building a CI Pipeline with Github Actions
+### GitHub Actions
+- Your Github Actions workflows live in the `.github/workflows` directory in your repository.
 ## Component Testing
 ## Accessibility Testing & Code Coverage
 ## Mocking and Spying
