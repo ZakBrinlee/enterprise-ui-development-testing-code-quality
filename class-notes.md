@@ -18,6 +18,7 @@ Course on how to build the infrastructure needed to manage a large code base sup
 - [GitHub Action Events list](https://github.com/stevekinney/enterprise-ui-dev/blob/main/content/Github%20Actions%20Events.md) -
 - [GitHub Actions](https://github.com/marketplace?type=actions) - GitHub's Actions site
 - [GitHub Action Workflow Syntax documentation](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds)
+- [API mocking for JavaScript](https://mswjs.io/)
 
 ## Top Level Notes
 - Components of a Well-Architected UI Application
