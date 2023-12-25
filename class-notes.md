@@ -69,6 +69,14 @@ Course on how to build the infrastructure needed to manage a large code base sup
 ### Caching Dependencies
 - https://github.com/stevekinney/enterprise-ui-dev/blob/main/content/Caching%20Assets%20Between%20Jobs.md
 ## Component Testing
+### Component Testing Overview
+- https://github.com/stevekinney/enterprise-ui-dev/tree/main?tab=readme-ov-file#component-testing
+### Using Vitest Environments
+- `// @vitest-environment happy-dom|jsdom`
+- Tells the test runner to trigger dom environment for test runs
+### Interacting with the DOM
+- `import '@testing-library/jest-dom/extend-expect';`
+-- Add to vite config+setup to extend with all DOM matchers
 ## Accessibility Testing & Code Coverage
 ## Mocking and Spying
 ## Integration Testing with Playwright
