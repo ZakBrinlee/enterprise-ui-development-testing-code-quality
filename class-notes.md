@@ -78,6 +78,9 @@ Course on how to build the infrastructure needed to manage a large code base sup
 - `import '@testing-library/jest-dom/extend-expect';`
 -- Add to vite config+setup to extend with all DOM matchers
 ## Accessibility Testing & Code Coverage
+### Automated Accessibility Testing with Axe
+- `axe-core` - package for a11y testing
+-- [axe-core npm](https://github.com/dequelabs/axe-core)
 ## Mocking and Spying
 ## Integration Testing with Playwright
 ## Enforcing Standards
