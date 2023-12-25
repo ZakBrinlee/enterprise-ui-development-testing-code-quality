@@ -13,7 +13,7 @@ export default defineConfig({
   test: {
     globals: true,
     setupFiles: path.resolve(__dirname, 'test/setup.ts'),
-    exclude: [...defaultExclude, '**/*.svelte**'],
+    exclude: [...defaultExclude, '**/*.svelte**', 'integration-testing-example-playground/**'],
     environmentMatchGlobs: [
       ['**/*.test.tsx', 'jsdom'],
       ['**/*.component.test.ts', 'jsdom'],
@@ -31,6 +31,7 @@ export default defineConfig({
         '**/snapshot-tests/**',
         '**/*.solution.tsx',
         '**/coverage/**',
+        'integration-testing-example-playground/**',
       ],
       all: true,
     },

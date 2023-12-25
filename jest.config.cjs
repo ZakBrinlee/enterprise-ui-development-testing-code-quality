@@ -8,4 +8,5 @@ module.exports = {
     '^\\$components(.*)$': '<rootDir>/src/components$1',
     '^test(.*)$': '<rootDir>/test$1',
   },
+  testPathIgnorePatterns: ['<rootDir>/integration-testing-example-playground/'],
 };
